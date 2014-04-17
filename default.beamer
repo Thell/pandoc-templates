@@ -1,4 +1,8 @@
 \documentclass[$if(fontsize)$$fontsize$,$endif$$if(handout)$handout,$endif$$if(beamer)$ignorenonframetext,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
+$for(early-includes)$
+$early-includes$
+$endfor$
+
 $if(theme)$
 \usetheme{$theme$}
 $endif$

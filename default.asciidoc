@@ -1,3 +1,6 @@
+$for(early-includes)$
+$early-includes$
+$endfor$
 $if(titleblock)$
 $title$
 $for(author)$

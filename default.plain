@@ -1,3 +1,7 @@
+$for(early-includes)$
+  $early-includes$
+
+$endfor$
 $if(titleblock)$
 $titleblock$
 

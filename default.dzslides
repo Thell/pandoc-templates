@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <head>
 <meta charset="utf-8">
+$for(early-includes)$
+  $early-includes$
+$endfor$
 $for(author-meta)$
   <meta name="author" content="$author-meta$" />
 $endfor$
